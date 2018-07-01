@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">quizzy</string>
+
+    //array for dropdown items
+    <string-array name="names">
+        <item>Select a topic....</item>
+        <item>Android</item>
+        <item>Web</item>
+        <item>Maths</item>
+        <item>Sports</item>
+
+    </string-array>
+</resources>

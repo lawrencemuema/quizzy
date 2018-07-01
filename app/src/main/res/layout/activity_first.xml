@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradd"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="30dp"
+        android:layout_alignParentTop="true"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quizzy"
+            android:layout_marginTop="20dp"
+            />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="QUIZZY"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#135058"
+        />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+        </LinearLayout>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name...(optional)"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        />
+
+
+
+    <Spinner
+        android:id="@+id/spinnerHome"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="10dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:textSize="20sp"
+            android:textColor="#135058"
+            android:textAlignment="center"
+            android:text="choosing a topic starts the quiz."
+            />
+        <TextView
+            android:id="@+id/caution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/spinnerHome"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#135058"
+            android:textAlignment="center"
+            android:text="Dont Lose!"
+            android:layout_marginBottom="20dp"
+
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+    </ScrollView>
